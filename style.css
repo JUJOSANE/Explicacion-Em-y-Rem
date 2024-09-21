@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: Fuente1;
+    src: url(fonts/DonGraffiti.otf);
+}
+
+html{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Fuente1;
+    font-size: 18px;
+}
+h1{
+    font-size: 3rem;
+}
+
+header, footer{
+background-color: #034159;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+
+img{
+    width: 100%;
+
+}
+
+.logo{
+    width: 120px;
+    padding: 15px;
+}
+
+.logo img{
+border-radius: 20px ;
+border: 1px solid green;
+}
+
+nav{
+    background-color:#025951 ;
+    padding: 15px;
+}
+
+nav a{
+    background-color: #038C3E;
+    color: #fff;
+    padding: 6px 10px;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px 5px #0CF25D;
+    border-radius: 15px;
+}
+nav a:hover{
+    background-color: #fff;
+    color: #038C3E;
+}
+
+main{
+    /* background-color: #02735E; */
+    min-height: 100vh;
+     background-image: url(images/pexels-pixabay-47730.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-attachment: fixed; 
+    /* background: linear-gradient(#038C3E, #034159); */
+    padding: 30px 0;
+}
+
+.cuadro-px{
+    width: 500px;
+    height: 330px;
+    padding: 20px;
+    margin: 25px auto;
+    background-color: rgba(255, 228, 196, 0.6);
+    border: 2px solid #034159;
+}
+
+.cuadro-rem{
+    width: 31.25rem;
+    height: 20.625rem;
+    padding: 1.25rem;
+    margin: 1.5625rem auto;
+    background-color: rgba(255, 228, 196, 0.6);
+    border: .125rem solid #034159;
+}
+
+.em{
+    font-size: 30px;
+}
+
+.cuadro-em{
+    width: 31.25em;
+    height: 20.625em;
+    padding: 1.25em;
+    margin: 1.5625em auto;
+    background-color: rgba(255, 228, 196, 0.6);
+    border: .125em solid #034159;   
+}
+
+.columnas{
+    align-items: center;
+    display: flex;
+    gap: 3%;
+    justify-content: center;
+}
+
+.columnas .dos{
+
+    width: 30%;
+
+}
